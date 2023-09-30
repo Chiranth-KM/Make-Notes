@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MakeNotes" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimaryDark">@color/grey</item>
+        <item name="floatingActionButtonStyle">@style/FloatingActionButtonStyle</item>
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+    <style name="Text">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="FloatingActionButtonStyle" parent="Widget.Design.FloatingActionButton">
+        <item name="shapeAppearanceOverlay">@style/cornerRadius</item>
+    </style>
+    <style name="cornerRadius" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">19dp</item>
+    </style>
+<!--    <style name="textColor">#000</style>-->
+</resources>
